@@ -1,0 +1,14 @@
+{"level":"info","message":"the provided numbers have been added","service":"user-service"}
+{"level":"info","message":"The provided numbers 9 & 9 have been added, their sum is 18","service":"user-service"}
+{"level":"info","message":"The provided numbers 9 & 9 have been added, their sum is 18","service":"user-service"}
+{"level":"info","message":"The provided numbers 177 & 238 have been added, the result is 415","service":"user-service"}
+{"level":"info","message":"The provided numbers 177 & 238 have been divided, the result is 0.7436974789915967","service":"user-service"}
+{"level":"info","message":"The provided numbers 177 & -238 have been divided, the result is -0.7436974789915967","service":"user-service"}
+{"level":"info","message":"The provided numbers 177 & -238 have been multiplied, the result is -42126","service":"user-service"}
+{"level":"info","message":"The provided numbers -177 & -238 have been multiplied, the result is 42126","service":"user-service"}
+{"level":"info","message":"The provided numbers 177 & 238 have been subtracted, the result is -61","service":"user-service"}
+{"level":"info","message":"The provided numbers 177 & 238 have been subtracted, the result is -61","service":"user-service"}
+{"level":"info","message":"The provided numbers -177 & -238 have been multiplied, the result is 42126","service":"user-service"}
+{"level":"info","message":"The provided numbers 177 & -238 have been divided, the result is -0.7436974789915967","service":"user-service"}
+{"level":"info","message":"The provided numbers 9 & 9 have been added, the result is 18","service":"user-service"}
+{"level":"info","message":"The provided numbers 9 & 9 have been multiplied, the result is 81","service":"user-service"}
