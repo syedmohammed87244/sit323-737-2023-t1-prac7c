@@ -28,7 +28,7 @@ app.get("/add",(req,res)=>{
             throw new Error("Parsing Error")
         }
         const result = add(n1,n2);
-        res.status(200).json({statuscocde:200,data : result});
+        res.status(200).json({statuscocde:200,data : "the sum of "+n1+" & "+n2+" is "+ result});
         logger.log({
             level: "info", 
             message: `The provided numbers ${n1} & ${n2} have been added, the result is ${result}`,
@@ -58,7 +58,7 @@ app.get("/sub",(req,res)=>{
             throw new Error("Parsing Error")
         }
         const result = sub(n1,n2);
-        res.status(200).json({statuscocde:200,data : result});
+        res.status(200).json({statuscocde:200,data :"the difference of "+n1+" & "+n2+" is "+ result});
         logger.log({
             level: "info", 
             message: `The provided numbers ${n1} & ${n2} have been subtracted, the result is ${result}`,
@@ -87,7 +87,7 @@ app.get("/div",(req,res)=>{
             throw new Error("Parsing Error")
         }
         const result = div(n1,n2);
-        res.status(200).json({statuscocde:200,data : result});
+        res.status(200).json({statuscocde:200,data : "the result of dividing "+n1+" & "+n2+" is "+ result});
         logger.log({
             level: "info", 
             message: `The provided numbers ${n1} & ${n2} have been divided, the result is ${result}`,
@@ -116,7 +116,7 @@ app.get("/mul",(req,res)=>{
             throw new Error("Parsing Error")
         }
         const result = mul(n1,n2);
-        res.status(200).json({statuscocde:200,data : result});
+        res.status(200).json({statuscocde:200,data : "the product of "+n1+" & "+n2+" is "+ result});
         logger.log({
             level: "info", 
             message: `The provided numbers ${n1} & ${n2} have been multiplied, the result is ${result}`,
